@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uol Chat</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topo">
+        <img src="/Imagens/logo_uol.jpeg"/>
+        <ion-icon name="people"></ion-icon>
+    </div>
+    <div class="container">
+        <div class="espacamento"></div>
+        
+        <div class="conteudo">
+            <span><strong>João</strong> para Todos: Bom dia</span>
+        </div>
+        <div class="reservado">
+            <span><strong>João</strong> reservadamente para <strong>Maria</strong>: Oi gatinha quer tc?</span>
+        </div>
+
+    </div>
+    <div class="bottom">
+        <input type="text" placeholder="Escreva aqui...">
+        <ion-icon name="paper-plane-outline" class="icone-bottom"></ion-icon>
+        <button class="botao" onclick="enviarMensagem()"></button>
+        
+    </div>
+    
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
